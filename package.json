@@ -1,0 +1,29 @@
+{
+  "name": "544-mimiciii-visual",
+  "version": "1.0.0",
+  "description": "CS544 Final Project Using MimicIII Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaitlinCarbone/544-MimicIII-Visual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaitlinCarbone/544-MimicIII-Visual/issues"
+  },
+  "homepage": "https://github.com/CaitlinCarbone/544-MimicIII-Visual#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22"
+  }
+}
